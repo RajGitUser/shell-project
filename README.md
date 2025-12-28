@@ -53,7 +53,7 @@ shell-project/
 └── rabbitmq.repo
 ``` :contentReference[oaicite:3]{index=3}
 
-> Shell scripts automate service tasks, while `.service` and `.repo` files define systemd service units and repository configurations respectively.
+Shell scripts automate service tasks, while `.service` and `.repo` files define systemd service units and repository configurations respectively.
 
 ---
 
