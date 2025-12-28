@@ -1,25 +1,9 @@
-🐚 Shell Project
+# 🐚 Shell Project
 
 A collection of Bash/Shell scripts and service definitions to automate setup and deployment tasks for different microservices and infrastructure components. This project aims to provide reusable scripts for managing services such as catalogue, cart, payment, shipping, user, and associated tooling like MongoDB, Redis, MySQL, RabbitMQ, etc. 
 GitHub
 
-📌 Table of Contents
-
-About
-
-Repository Structure
-
-Prerequisites
-
-Usage
-
-Scripts & Services
-
-Contributing
-
-License
-
-🤔 About
+# 🤔 About
 
 This repository contains useful shell scripts that help automate and bootstrap various components of a project environment. The scripts are typically used for:
 
@@ -32,32 +16,11 @@ This repository contains useful shell scripts that help automate and bootstrap v
 All scripts are written in Bash (Shell). 
 GitHub
 
-📁 Repository Structure
-shell-project/
-├── 01-roboshop.sh
-├── catalogue.sh
-├── cart.sh
-├── frontend.sh
-├── mongodb.sh
-├── mysql.sh
-├── payment.sh
-├── rabbitmq.sh
-├── redis.sh
-├── user.sh
-├── catalogue.service
-├── cart.service
-├── payment.service
-├── shipping.service
-├── user.service
-├── mongo.repo
-└── rabbitmq.repo
-``` :contentReference[oaicite:3]{index=3}
-
 Shell scripts automate service tasks, while `.service` and `.repo` files define systemd service units and repository configurations respectively.
 
 ---
 
-## 🧰 Prerequisites
+# 🧰 Prerequisites
 
 Before using these scripts, ensure:
 
@@ -114,13 +77,13 @@ File	Purpose
 
 These definitions help manage services via systemctl.
 
-📌 Tips
+# 📌 Tips
 
 ✔ Read each script before executing it in a production environment
 ✔ Use version control branches when making changes
 ✔ Modify service units under /etc/systemd/system/ if needed
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
